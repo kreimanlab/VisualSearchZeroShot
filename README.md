@@ -4,7 +4,7 @@ Authors: Mengmi Zhang, Jiashi Feng, Keng Teck Ma, Joo Hwee Lim, Qi Zhao, and Gab
 
 This repository contains an implementation of a zero-shot deep learning model for invariant and efficient visual search. Our paper is currently under review.
 
-An unofficial copy of our manuscript can be assessed [HERE](Manuscript/manuscript.pdf).
+An unofficial copy of our manuscript can be provided upon request.
 
 ## Project Description
 
@@ -71,9 +71,8 @@ It contains the following:
    
 ## Notes
 
-The source code is for illustration purpose only. Path reconfigurations may be needed to run some MATLAB scripts.
-Users have to agree and follow the usage terms and license agreement provided in License section.
+The source code is for illustration purpose only. Path reconfigurations may be needed to run some MATLAB scripts. We do not provide techinical supports but we would be happy to discuss about SCIENCE!
 
 ## License
 
-See [Kreiman lab](http://klab.tch.harvard.edu) for license agreements before downloading and using our source codes and datasets.
+See [Kreiman lab](http://klab.tch.harvard.edu/code/license_agreement.pdf) for license agreements before downloading and using our source codes and datasets.
