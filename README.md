@@ -83,7 +83,7 @@ We have collected human eyetracking data in three increasingly complex visual se
 |:---:|:---:|:---:|
 | Object array (Model) | Natural image (Model) | Waldo image (Model) |
 
-**Note** that we also include one variation of the search task in object arrays. Instead of familiar objects, we collect **novel** objects from [1](http://wiki.cnbc.cmu.edu/Novel_Objects) [2](http://michaelhout.com/?page_id=759) [3](https://www.turbosquid.com/Search/Index.cfm?keyword=alien&max_price=0&min_price=0) and create a dataset of **novel** objects on arrays. See below for **novel** object examples:
+**Note** that we also include one variation of the search task in object arrays. Instead of familiar objects, we collect **novel** objects from [[1]](http://wiki.cnbc.cmu.edu/Novel_Objects) [[2]](http://michaelhout.com/?page_id=759) [[3]](https://www.turbosquid.com/Search/Index.cfm?keyword=alien&max_price=0&min_price=0) and create a dataset of **novel** objects on arrays. See below for **novel** object examples:
 
 ![Novel objects](sampleimg/montagenovel.jpg)
 
