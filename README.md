@@ -83,7 +83,9 @@ We have collected human eyetracking data in three increasingly complex visual se
 |:---:|:---:|:---:|
 | Object array (Model) | Natural image (Model) | Waldo image (Model) |
 
-Download the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
+
+
+You can **download** the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
 
 It contains the following:
 - datasets: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
