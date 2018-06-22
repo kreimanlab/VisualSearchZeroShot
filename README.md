@@ -32,7 +32,7 @@ luarocks install tds
 ```
 Download our repository:
 ```
-git clone https://github.com/Mengmi/Zero-shot-Invariant-and-Efficient-Visual-Search.git
+git clone https://github.com/kreimanlab/VisualSearchZeroShot.git
 ```
 
 Download the caffe VGG16 model from [HERE](https://drive.google.com/open?id=1AEJse0liaT8uJoLmImqhyJN2y2_6mDsJ) and place it in folder /Models/caffevgg16/
@@ -47,19 +47,37 @@ th IVSNtopdown_30_31_array.lua
 ```
 Visualize the generated attention map in MATLAB: visAttentionMap_array.m
 
-### Visual search in natural images and Waldo images
+### Visual search in natural images
 
-Navigate to the repository folder and run PreprocessWaldoImage.m in MATLAB
+Navigate to the repository folder and run PreprocessNaturalDesign.m in MATLAB
+
+It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in croppednaturaldesign_img.txt.
 
 To run our search model, copy the following command in the command window:
 ```
-th IVSNtopdown_30_31_waldo_naturaldesign.lua
+th IVSNtopdown_30_31_naturaldesign.lua
 ```
-Visualize the generated attention map in MATLAB: visAttentionMap_waldo_naturaldesign.m
+Visualize the generated attention map in MATLAB: visAttentionMap_naturaldesign.m
+
+### Visual search in Waldo images
+
+Navigate to the repository folder and run PreprocessWaldoImage.m in MATLAB
+
+It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in croppednaturaldesign_img.txt.
+
+To run our search model, copy the following command in the command window:
+```
+th IVSNtopdown_30_31_waldo.lua
+```
+Visualize the generated attention map in MATLAB: visAttentionMap_waldo.m
 
 ## Datasets
 
-We have collected human eyetracking data in three increasingly complex visual search tasks: object arrays, natural images and Waldo images. 
+We have collected human eyetracking data in three increasingly complex visual search tasks: object arrays, natural images and Waldo images. Below are the preview of example trial in each task. Yellow circles denote the eye movements. Correspondingly, we show the eye movement predicted by our computational model.
+
+| [![Objectarray](avi/array_6.avi)](avi/array_6.avi)  | [![Naturalimage](avi/naturaldesign_21_subj1.avi)](avi/naturaldesign_21_subj1.avi) |[![Waldoimage](avi/waldo_31_subj1.avi)](avi/waldo_31_subj1.avi)  |
+|:---:|:---:|:---:|
+| Object array | Natural image | Waldo image |
 
 Download the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
 
