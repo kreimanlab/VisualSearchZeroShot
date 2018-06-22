@@ -87,13 +87,15 @@ We have collected human eyetracking data in three increasingly complex visual se
 
 ![Novel objects](sampleimg/montagenovel.jpg)
 
-You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (size: ~9GB) 
+You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i), [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part3](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (size: ~9GB) 
 
 It contains the following:
-- datasets: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
-- eval: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations
-- Plot: plot pre-processed results saved in .mat and reproduce some figures in our paper
-- supportingFunc: add this directory in your MATLAB search path
+- Part 1: ```Datasets``` folder: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
+- Part 2: ```Eval``` folder: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations for our computational model across three datasets 
+- Part 2: ```Plot``` folder: contain MATLAB files to reproduce figures in our paper
+- Part 2: ```supportingFunc``` folder: add this directory in your MATLAB search path
+- Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat; move this folder in ```Plot``` folder (Part 2) before using plot functions 
+
    
 ## Notes
 
