@@ -73,11 +73,15 @@ Visualize the generated attention map in MATLAB: visAttentionMap_waldo.m
 
 ## Datasets
 
-We have collected human eyetracking data in three increasingly complex visual search tasks: object arrays, natural images and Waldo images. Below are the preview of example trial in each task. Yellow circles denote the eye movements. Correspondingly, we show the eye movement predicted by our computational model.
+We have collected human eyetracking data in three increasingly complex visual search tasks: object arrays, natural images and Waldo images. Below are the preview of example trial in each task. Yellow circles denote the eye movements. Red bounding box denotes the ground truth. Correspondingly, we show the eye movement predicted by our computational model.
 
 | [![Objectarray](GIF/array_6.gif)](GIF/array_6.gif)  | [![Naturalimage](GIF/naturaldesign_21_subj1.gif)](GIF/naturaldesign_21_subj1.gif) |[![Waldoimage](GIF/waldo_31_subj1.gif)](GIF/waldo_31_subj1.gif)  |
 |:---:|:---:|:---:|
-| Object array | Natural image | Waldo image |
+| Object array (Human) | Natural image (Human) | Waldo image (Human) |
+
+| [![Objectarray](GIF/array_6_model.gif)](GIF/array_6_model.gif)  | [![Naturalimage](GIF/naturaldesign_21_model.gif)](GIF/naturaldesign_21_model.gif) |[![Waldoimage](GIF/waldo_31_model.gif)](GIF/waldo_31_model.gif)  |
+|:---:|:---:|:---:|
+| Object array (Model) | Natural image (Model) | Waldo image (Model) |
 
 Download the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
 
