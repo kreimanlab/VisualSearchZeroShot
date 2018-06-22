@@ -83,11 +83,11 @@ We have collected human eyetracking data in three increasingly complex visual se
 |:---:|:---:|:---:|
 | Object array (Model) | Natural image (Model) | Waldo image (Model) |
 
-**Note** that we also include one variation of the search task in object arrays. Instead of familiar objects, we collect **novel** objects from [HERE](http://wiki.cnbc.cmu.edu/Novel_Objects) and create a dataset of **novel** objects on arrays. See below for **novel** object examples:
+**Note** that we also include one variation of the search task in object arrays. Instead of familiar objects, we collect **novel** objects from [1](http://wiki.cnbc.cmu.edu/Novel_Objects) [2](http://michaelhout.com/?page_id=759) [3](https://www.turbosquid.com/Search/Index.cfm?keyword=alien&max_price=0&min_price=0) and create a dataset of **novel** objects on arrays. See below for **novel** object examples:
 
 ![Novel objects](sampleimg/montagenovel.jpg)
 
-You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i), [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part3](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (total size: ~9GB) 
+You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/file/d/1ZvmugJDds-CrwTvhIXmyYVxnniNmx7ce/view?usp=sharing), [Part2](https://drive.google.com/open?id=1C4T2Siz6zWxksvDbL549-KnWvJMgoCeh) and [Part3](https://drive.google.com/open?id=1eQzrTVFov1OjGoRAGy75vgDabPrHMoS7) (total size: ~9GB) 
 
 It contains the following:
 - Part 1: ```Datasets``` folder: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
