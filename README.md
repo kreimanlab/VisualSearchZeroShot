@@ -35,7 +35,7 @@ Download our repository:
 git clone https://github.com/kreimanlab/VisualSearchZeroShot.git
 ```
 
-Download the caffe VGG16 model from [HERE](https://drive.google.com/open?id=1AEJse0liaT8uJoLmImqhyJN2y2_6mDsJ) and place it in folder /Models/caffevgg16/
+Download the caffe VGG16 model from [HERE](https://drive.google.com/open?id=1AEJse0liaT8uJoLmImqhyJN2y2_6mDsJ) and place it in folder ```/Models/caffevgg16/```
 
 ## Usage
 
@@ -45,31 +45,31 @@ Navigate to the repository folder. To run our search model, copy the following c
 ```
 th IVSNtopdown_30_31_array.lua
 ```
-Visualize the generated attention map in MATLAB: visAttentionMap_array.m
+Visualize the generated attention map in MATLAB: ```visAttentionMap_array.m```
 
 ### Visual search in natural images
 
-Navigate to the repository folder and run PreprocessNaturalDesign.m in MATLAB
+Navigate to the repository folder and run ```PreprocessNaturalDesign.m``` in MATLAB
 
-It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in croppednaturaldesign_img.txt.
+It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in ```croppednaturaldesign_img.txt```.
 
 To run our search model, copy the following command in the command window:
 ```
 th IVSNtopdown_30_31_naturaldesign.lua
 ```
-Visualize the generated attention map in MATLAB: visAttentionMap_naturaldesign.m
+Visualize the generated attention map in MATLAB: ```visAttentionMap_naturaldesign.m```
 
 ### Visual search in Waldo images
 
-Navigate to the repository folder and run PreprocessWaldoImage.m in MATLAB
+Navigate to the repository folder and run ```PreprocessWaldoImage.m``` in MATLAB
 
-It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in croppednaturaldesign_img.txt.
+It preprocesses the search images by cropping it into uniform pieces and saving the paths of the cropped images in ```croppednaturaldesign_img.txt```.
 
 To run our search model, copy the following command in the command window:
 ```
 th IVSNtopdown_30_31_waldo.lua
 ```
-Visualize the generated attention map in MATLAB: visAttentionMap_waldo.m
+Visualize the generated attention map in MATLAB: ```visAttentionMap_waldo.m```
 
 ## Datasets
 
@@ -87,14 +87,14 @@ We have collected human eyetracking data in three increasingly complex visual se
 
 ![Novel objects](sampleimg/montagenovel.jpg)
 
-You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i), [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part3](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (size: ~9GB) 
+You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i), [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part3](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (total size: ~9GB) 
 
 It contains the following:
 - Part 1: ```Datasets``` folder: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
 - Part 2: ```Eval``` folder: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations for our computational model across three datasets 
 - Part 2: ```Plot``` folder: contain MATLAB files to reproduce figures in our paper
 - Part 2: ```supportingFunc``` folder: add this directory in your MATLAB search path
-- Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat; move this folder in ```Plot``` folder (Part 2) before using plot functions 
+- Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat. Place this folder in ```Plot``` folder (Part 2) before using plot functions 
 
    
 ## Notes
