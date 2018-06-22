@@ -83,16 +83,16 @@ We have collected human eyetracking data in three increasingly complex visual se
 |:---:|:---:|:---:|
 | Object array (Model) | Natural image (Model) | Waldo image (Model) |
 
-**Note** that we have one variation of the search task in object arrays. Instead of familiar objects, we create a dataset of **novel** object on arrays. See below for novel object examples:
+**Note** that we also include one variation of the search task in object arrays. Instead of familiar objects, we collect **novel** objects from [HERE](http://wiki.cnbc.cmu.edu/Novel_Objects) and create a dataset of **novel** objects on arrays. See below for **novel** object examples:
 
 ![Novel objects](sampleimg/montagenovel.jpg)
 
-You can **download** the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
+You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) and [Part2](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i) (size: ~9GB) 
 
 It contains the following:
 - datasets: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
 - eval: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations
-- Plot: plot pre-processed results saved in .mat and reproduce some figures in the manuscript
+- Plot: plot pre-processed results saved in .mat and reproduce some figures in our paper
 - supportingFunc: add this directory in your MATLAB search path
    
 ## Notes
