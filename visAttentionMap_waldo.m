@@ -155,6 +155,7 @@ end
 
 FixData.Fix_posx = Fix_posx;
 FixData.Fix_posy = Fix_posy;
+%% Comment this part to plot cummulative search performance
 % plot(cumsum(mean(scoremat,1)))
 % xlabel('fixation number');
 % ylabel('cummulative performance');
