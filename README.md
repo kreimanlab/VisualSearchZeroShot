@@ -94,7 +94,7 @@ It contains the following:
 - Part 2: ```Eval``` folder: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations for our computational model across three datasets 
 - Part 2: ```Plot``` folder: contain MATLAB files to reproduce figures in our paper
 - Part 2: ```supportingFunc``` folder: add this directory in your MATLAB search path
-- Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat. Place this folder in ```Plot``` folder (Part 2) before using plot functions 
+- Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat. Place this folder in ```Plot``` folder (Part 2) before using plotting functions 
 
    
 ## Notes
