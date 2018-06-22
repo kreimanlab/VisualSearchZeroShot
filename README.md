@@ -85,7 +85,7 @@ We have collected human eyetracking data in three increasingly complex visual se
 
 **Note** that we have one variation of the search task in object arrays. Instead of familiar objects, we create a dataset of **novel** object on arrays. See below for novel object examples:
 
-![Novel objects](sampleimg/montagenovlobj.jpg)
+![Novel objects](sampleimg/montagenovel.jpg)
 
 You can **download** the complete dataset (size: 3GB) from [HERE](https://drive.google.com/open?id=19mZ759OlUca-WSodPbHRncnFTH02yi3i)
 
