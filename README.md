@@ -1,4 +1,4 @@
-# Finding any Waldo: Zero-shot Invariant and Efficient Visual Search 
+# Finding any Waldo with Zero-shot Invariant and Efficient Visual Search 
 
 Authors: Mengmi Zhang, Jiashi Feng, Keng Teck Ma, Joo Hwee Lim, Qi Zhao, and Gabriel Kreiman
 
