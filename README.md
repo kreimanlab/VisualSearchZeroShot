@@ -4,7 +4,7 @@ Authors: Mengmi Zhang, Jiashi Feng, Keng Teck Ma, Joo Hwee Lim, Qi Zhao, and Gab
 
 This repository contains an implementation of a zero-shot deep learning model for invariant and efficient visual search. Our paper is published in Nature Communication.
 
-Free access to our manuscript [HERE](https://www.nature.com/articles/s41467-018-06217-x).
+Free access to our manuscript [HERE](https://www.nature.com/articles/s41467-018-06217-x), supplementary material [HERE](http://klab.tch.harvard.edu/publications/PDFs/gk7627_supplement.pdf)
 
 ## Project Description
 
