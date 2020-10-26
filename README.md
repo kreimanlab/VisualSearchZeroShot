@@ -99,8 +99,11 @@ It contains the following:
 ## Errata
 
 Physical screen size used for stimulus presentation (in mm): 360x295
+
 Physical distance between the computer monitor and the eyetracking camera (in mm): 76.2
+
 Averaged sitting distance between human subjects and the screen (in mm): 660.4 instead of 520 mm
+
 (The measurement errors do not alter major results or conclusions reported in the paper.)
    
 ## Notes
