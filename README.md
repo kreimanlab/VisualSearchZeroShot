@@ -96,6 +96,12 @@ It contains the following:
 - Part 2: ```supportingFunc``` folder: add this directory in your MATLAB search path
 - Part 3: ```DataForPlot``` Folder: pre-processed results saved in .mat. Place this folder in ```Plot``` folder (Part 2) before using plotting functions 
 
+## Errata
+
+Physical screen size used for stimulus presentation (in mm): 360x295
+Physical distance between the computer monitor and the eyetracking camera (in mm): 76.2
+Averaged sitting distance between human subjects and the screen (in mm): 660.4 instead of 520 mm
+(The measurement errors do not alter major results or conclusions reported in the paper.)
    
 ## Notes
 
