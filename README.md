@@ -89,6 +89,8 @@ We have collected human eyetracking data in three increasingly complex visual se
 
 You can **download** the complete dataset including the novel object dataset from [Part1](https://drive.google.com/file/d/1ZvmugJDds-CrwTvhIXmyYVxnniNmx7ce/view?usp=sharing), [Part2](https://drive.google.com/open?id=1C4T2Siz6zWxksvDbL549-KnWvJMgoCeh) and [Part3](https://drive.google.com/open?id=1eQzrTVFov1OjGoRAGy75vgDabPrHMoS7) (total size: ~9GB) 
 
+In object arrays, we used cropped objects from MSCOCO and performed post-processing steps, such as color removal, histogram equalization, and random rotations (see our paper for details). If you would like to trace back the objects from the original MSCOCO images, please download the original [MSCOCO2014](https://cocodataset.org/#download) dataset (train2014, val2014 and annotations for 2014) and use ```ReConstructOriginalInstance.m``` in ```ReconstructArrayObjects``` folder to visualize the original objects from MSCOCO. 
+
 It contains the following:
 - Part 1: ```Datasets``` folder: contain search images, targets, ground truth, psychophysics (human eyetracking data, MATLAB function to process and extract fixations)
 - Part 2: ```Eval``` folder: contain MATLAB files to evaluate cummulative search performance as a function of number of fixations for our computational model across three search tasks 
