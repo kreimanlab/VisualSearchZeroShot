@@ -6,6 +6,8 @@ This repository contains an implementation of a zero-shot deep learning model fo
 
 Free access to our manuscript [HERE](https://www.nature.com/articles/s41467-018-06217-x), supplementary material [HERE](http://klab.tch.harvard.edu/publications/PDFs/gk7627_supplement.pdf)
 
+Given the high demand for our code, we have provided the implementation in Python as well. The link to the Python implenentation is {HERE}(https://github.com/ZhangLab-DeepNeuroCogLab/IVSN)
+
 ## Project Description
 
 Searching for a target object in a cluttered scene constitutes a fundamental challenge in daily vision. Visual search must be selective enough to discriminate the target from distractors, invariant to changes in the appearance of the target, efficient to avoid exhaustive exploration of the image, and must generalize to locate novel target objects with zero-shot training. Previous work has focused on searching for perfect matches of a target after extensive category-specific training. Here we show for the first time that humans can efficiently and invariantly search for natural objects in complex scenes. To gain insight into the mechanisms that guide visual search, we propose a biologically inspired computational model that can selectively, invariantly and efficiently locate targets, generalizing to novel objects. The model provides an approximation to the mechanisms integrating bottom-up and top-down signals during search in natural scenes.
